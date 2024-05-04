@@ -1,0 +1,57 @@
+{
+  "message": "List of chat messages",
+  "success": true,
+  "data": {
+    "next": {
+      "page": 2,
+      "limit": 5
+    },
+    "messages": [
+      {
+        "sender": {
+          "id": "1",
+          "name": "Alice",
+          "avatar": "https://example.com/avatar1.png"
+        },
+        "content": "Hey, how's it going?",
+        "timestamp": "2024-05-04T10:15:27.000Z"
+      },
+      {
+        "sender": {
+          "id": "2",
+          "name": "Bob",
+          "avatar": "https://example.com/avatar2.png"
+        },
+        "content": "Hi Alice! I'm doing great, thanks for asking.",
+        "timestamp": "2024-05-04T10:17:35.000Z"
+      },
+      {
+        "sender": {
+          "id": "1",
+          "name": "Alice",
+          "avatar": "https://example.com/avatar1.png"
+        },
+        "content": "That's awesome to hear!",
+        "timestamp": "2024-05-04T10:20:12.000Z"
+      },
+      {
+        "sender": {
+          "id": "3",
+          "name": "Charlie",
+          "avatar": "https://example.com/avatar3.png"
+        },
+        "content": "Hey guys, what's up?",
+        "timestamp": "2024-05-04T10:22:45.000Z"
+      },
+      {
+        "sender": {
+          "id": "2",
+          "name": "Bob",
+          "avatar": "https://example.com/avatar2.png"
+        },
+        "content": "Not much, just chilling.",
+        "timestamp": "2024-05-04T10:24:59.000Z"
+      }
+    ]
+  }
+}
