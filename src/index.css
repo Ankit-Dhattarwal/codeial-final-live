@@ -223,15 +223,16 @@ nav .right-nav {
   color: #fff;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
 }
 nav .nav-links ul {
   display: flex;
   list-style-type: none;
+  margin-left: 60px;
 }
 nav .nav-links ul li {
-  padding: 0 4px;
+  padding: 0 10px;
 }
 nav .nav-links ul li a {
   text-decoration: none;
@@ -303,6 +304,25 @@ nav .nav-links ul li:hover {
 }
 .search-results-row img {
   height: 27px;
+}
+
+.left-div {
+  width: 80px;
+  height: 80%;
+}
+
+.left-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.user {
+  width: 80px;
+  height: 80px;
+}
+.user img {
+  width: 50%;
+  height: 50%;
 }
 
 /* HOME AND FRIENDSLIST COMPONENT */
