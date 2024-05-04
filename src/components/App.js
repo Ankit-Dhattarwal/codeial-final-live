@@ -30,14 +30,14 @@ class App extends React.Component {
               <ul>
                 <li className="search-results-row">
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcrHz4vrNrDq6VEqSADONhWK6hIdSbmI7WJV_OxLlZA&s"
+                    src="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png"
                     alt="user-dp"
                   />
                   <span>Ankit Dhattarwal</span>
                 </li>
                 <li className="search-results-row">
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPcrHz4vrNrDq6VEqSADONhWK6hIdSbmI7WJV_OxLlZA&s"
+                    src="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png"
                     alt="user-dp"
                   />
                   <span>Amit Dhattarwal</span>
@@ -48,7 +48,7 @@ class App extends React.Component {
           <div className="right-nav">
             <div className="user">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png"
+                src="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png"
                 alt="user-dp"
               />
               <span>Ankit Dhattarwal</span>
