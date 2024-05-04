@@ -2,13 +2,20 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchPosts } from '../actions/posts';
 
-class App extends Component {
+import PostsList from './PostsList';
+
+class App extends React.Component {
   componentDidMount() {
     this.props.dispatch(fetchPosts());
   }
 
   render() {
-    return <div>App now</div>;
+    const { posts } = this.props;
+    return (
+      <div>
+        <PostsList posts={posts} />
+      </div>
+    );
   }
 }
 
@@ -17,5 +24,4 @@ function mapStateToProps(state) {
     posts: state.posts,
   };
 }
-
 export default connect(mapStateToProps)(App);
