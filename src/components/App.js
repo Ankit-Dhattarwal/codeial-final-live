@@ -8,8 +8,7 @@ import { fetchPosts } from '../actions/posts';
 import Home from './Home';
 import Navbar from './Navbar';
 import Page404 from './Page404';
-
-const Login = () => <div>Login</div>;
+import Login from './Login';
 
 const Signup = () => <div>Signup</div>;
 
